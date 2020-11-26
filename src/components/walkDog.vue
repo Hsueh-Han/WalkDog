@@ -21,7 +21,7 @@
         </div>
         <div v-if="!searchStatus" class="w-100 bg-danger mt-1 text-white position-absolute"
         style="opacity: 0.75; bottom: -30px;">
-          <small>該路段或街道尚未設置寵物便袋箱 或 該行政區查無此街道名稱 !</small>
+          <small>該路段或街道尚未設置寵物便袋箱 或 該行政區查無此街道 !</small>
         </div>
         <input type="text" class="form-control w-50" placeholder="search for a street name"
         v-model="isStaredStreet" :class="{'is-invalid': !searchStatus}" @keyup.enter="searchBag">
